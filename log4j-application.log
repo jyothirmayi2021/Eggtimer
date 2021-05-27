@@ -1347,3 +1347,787 @@
 2021-05-27 07:43:40 INFO  GlobalStepDefinitions:41 - [Step]: Verify status code is200
 2021-05-27 07:43:40 INFO  GlobalStepDefinitions:42 - 200
 2021-05-27 07:43:40 INFO  GlobalStepDefinitions:44 - ------------------------------Step-End-------------------------------------
+2021-05-27 13:03:38 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:04:53 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:07:44 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : chromedriver.path PropertyValue : src/main/resources/chromedriver.exe
+2021-05-27 13:07:44 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2021-05-27 13:07:44 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2021-05-27 13:07:44 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2021-05-27 13:07:44 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38467116
+2021-05-27 13:07:44 DEBUG PlatformDependent:1028 - Platform: Windows
+2021-05-27 13:07:44 DEBUG PlatformDependent0:417 - -Dio.netty.noUnsafe: false
+2021-05-27 13:07:44 DEBUG PlatformDependent0:889 - Java version: 8
+2021-05-27 13:07:44 DEBUG PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
+2021-05-27 13:07:44 DEBUG PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
+2021-05-27 13:07:44 DEBUG PlatformDependent0:192 - java.nio.Buffer.address: available
+2021-05-27 13:07:44 DEBUG PlatformDependent0:257 - direct buffer constructor: available
+2021-05-27 13:07:44 DEBUG PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
+2021-05-27 13:07:44 DEBUG PlatformDependent0:396 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-05-27 13:07:44 DEBUG PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-05-27 13:07:44 DEBUG PlatformDependent:1071 - sun.misc.Unsafe: available
+2021-05-27 13:07:44 DEBUG PlatformDependent:1192 - -Dio.netty.tmpdir: C:\Users\jmunaga\AppData\Local\Temp (java.io.tmpdir)
+2021-05-27 13:07:44 DEBUG PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-05-27 13:07:44 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1871708160 bytes
+2021-05-27 13:07:44 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-05-27 13:07:44 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-05-27 13:07:44 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2021-05-27 13:07:44 DEBUG PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-05-27 13:07:44 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-05-27 13:07:44 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-05-27 13:07:45 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2021-05-27 13:07:45 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2021-05-27 13:07:45 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-05-27 13:07:45 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-05-27 13:07:45 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 16
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 16
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-05-27 13:07:45 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-05-27 13:07:45 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-05-27 13:07:45 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-05-27 13:07:45 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-05-27 13:07:48 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 10044 (auto-detected)
+2021-05-27 13:07:48 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2021-05-27 13:07:48 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2021-05-27 13:07:49 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-05-27 13:07:49 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-05-27 13:07:49 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d0:c6:37:ff:fe:c3:3e:fd (auto-detected)
+2021-05-27 13:07:49 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-05-27 13:07:49 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-05-27 13:07:49 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@674bf090
+2021-05-27 13:07:49 DEBUG Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-05-27 13:07:49 DEBUG Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-05-27 13:07:49 DEBUG Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
+2021-05-27 13:07:49 DEBUG Recycler:103 - -Dio.netty.recycler.ratio: 8
+2021-05-27 13:07:49 DEBUG Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-05-27 13:07:50 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x2af9f7877548aa1b
+2021-05-27 13:07:51 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:10:12 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:10:25 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:10:40 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : chromedriver.path PropertyValue : src/main/resources/chromedriver.exe
+2021-05-27 13:10:40 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2021-05-27 13:10:40 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2021-05-27 13:10:40 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2021-05-27 13:10:40 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38467116
+2021-05-27 13:10:40 DEBUG PlatformDependent:1028 - Platform: Windows
+2021-05-27 13:10:40 DEBUG PlatformDependent0:417 - -Dio.netty.noUnsafe: false
+2021-05-27 13:10:40 DEBUG PlatformDependent0:889 - Java version: 8
+2021-05-27 13:10:40 DEBUG PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
+2021-05-27 13:10:40 DEBUG PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
+2021-05-27 13:10:40 DEBUG PlatformDependent0:192 - java.nio.Buffer.address: available
+2021-05-27 13:10:40 DEBUG PlatformDependent0:257 - direct buffer constructor: available
+2021-05-27 13:10:40 DEBUG PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
+2021-05-27 13:10:40 DEBUG PlatformDependent0:396 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-05-27 13:10:40 DEBUG PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-05-27 13:10:40 DEBUG PlatformDependent:1071 - sun.misc.Unsafe: available
+2021-05-27 13:10:40 DEBUG PlatformDependent:1192 - -Dio.netty.tmpdir: C:\Users\jmunaga\AppData\Local\Temp (java.io.tmpdir)
+2021-05-27 13:10:40 DEBUG PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-05-27 13:10:40 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1871708160 bytes
+2021-05-27 13:10:40 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-05-27 13:10:40 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-05-27 13:10:40 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2021-05-27 13:10:40 DEBUG PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-05-27 13:10:40 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-05-27 13:10:40 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-05-27 13:10:41 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2021-05-27 13:10:41 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2021-05-27 13:10:41 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-05-27 13:10:41 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-05-27 13:10:41 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 16
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 16
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-05-27 13:10:41 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-05-27 13:10:41 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-05-27 13:10:41 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-05-27 13:10:41 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-05-27 13:10:42 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 15764 (auto-detected)
+2021-05-27 13:10:42 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2021-05-27 13:10:42 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2021-05-27 13:10:42 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-05-27 13:10:42 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-05-27 13:10:42 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d0:c6:37:ff:fe:c3:3e:fd (auto-detected)
+2021-05-27 13:10:43 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-05-27 13:10:43 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-05-27 13:10:43 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@674bf090
+2021-05-27 13:10:43 DEBUG Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-05-27 13:10:43 DEBUG Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-05-27 13:10:43 DEBUG Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
+2021-05-27 13:10:43 DEBUG Recycler:103 - -Dio.netty.recycler.ratio: 8
+2021-05-27 13:10:43 DEBUG Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-05-27 13:10:44 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xb874282d064cfeb7
+2021-05-27 13:10:44 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:10:58 INFO  HomePage:44 - ***********************  *******58 seconds
+2021-05-27 13:10:59 INFO  HomePage:44 - ***********************  *******57 seconds
+2021-05-27 13:11:00 INFO  HomePage:44 - ***********************  *******56 seconds
+2021-05-27 13:11:01 INFO  HomePage:44 - ***********************  *******55 seconds
+2021-05-27 13:11:02 INFO  HomePage:44 - ***********************  *******54 seconds
+2021-05-27 13:11:03 INFO  HomePage:44 - ***********************  *******53 seconds
+2021-05-27 13:11:04 INFO  HomePage:44 - ***********************  *******52 seconds
+2021-05-27 13:11:05 INFO  HomePage:44 - ***********************  *******51 seconds
+2021-05-27 13:11:06 INFO  HomePage:44 - ***********************  *******50 seconds
+2021-05-27 13:11:07 INFO  HomePage:44 - ***********************  *******49 seconds
+2021-05-27 13:11:08 INFO  HomePage:44 - ***********************  *******48 seconds
+2021-05-27 13:11:09 INFO  HomePage:44 - ***********************  *******47 seconds
+2021-05-27 13:11:10 INFO  HomePage:44 - ***********************  *******46 seconds
+2021-05-27 13:11:11 INFO  HomePage:44 - ***********************  *******45 seconds
+2021-05-27 13:11:12 INFO  HomePage:44 - ***********************  *******44 seconds
+2021-05-27 13:11:13 INFO  HomePage:44 - ***********************  *******43 seconds
+2021-05-27 13:11:14 INFO  HomePage:44 - ***********************  *******42 seconds
+2021-05-27 13:11:15 INFO  HomePage:44 - ***********************  *******41 seconds
+2021-05-27 13:11:16 INFO  HomePage:44 - ***********************  *******40 seconds
+2021-05-27 13:11:17 INFO  HomePage:44 - ***********************  *******39 seconds
+2021-05-27 13:11:18 INFO  HomePage:44 - ***********************  *******38 seconds
+2021-05-27 13:11:19 INFO  HomePage:44 - ***********************  *******37 seconds
+2021-05-27 13:11:20 INFO  HomePage:44 - ***********************  *******36 seconds
+2021-05-27 13:11:21 INFO  HomePage:44 - ***********************  *******35 seconds
+2021-05-27 13:11:22 INFO  HomePage:44 - ***********************  *******34 seconds
+2021-05-27 13:11:23 INFO  HomePage:44 - ***********************  *******33 seconds
+2021-05-27 13:11:24 INFO  HomePage:44 - ***********************  *******32 seconds
+2021-05-27 13:11:25 INFO  HomePage:44 - ***********************  *******31 seconds
+2021-05-27 13:11:26 INFO  HomePage:44 - ***********************  *******30 seconds
+2021-05-27 13:11:27 INFO  HomePage:44 - ***********************  *******29 seconds
+2021-05-27 13:11:28 INFO  HomePage:44 - ***********************  *******28 seconds
+2021-05-27 13:11:29 INFO  HomePage:44 - ***********************  *******27 seconds
+2021-05-27 13:11:30 INFO  HomePage:44 - ***********************  *******26 seconds
+2021-05-27 13:11:31 INFO  HomePage:44 - ***********************  *******25 seconds
+2021-05-27 13:11:32 INFO  HomePage:44 - ***********************  *******24 seconds
+2021-05-27 13:11:33 INFO  HomePage:44 - ***********************  *******23 seconds
+2021-05-27 13:11:34 INFO  HomePage:44 - ***********************  *******22 seconds
+2021-05-27 13:11:35 INFO  HomePage:44 - ***********************  *******21 seconds
+2021-05-27 13:11:36 INFO  HomePage:44 - ***********************  *******20 seconds
+2021-05-27 13:11:37 INFO  HomePage:44 - ***********************  *******19 seconds
+2021-05-27 13:11:38 INFO  HomePage:44 - ***********************  *******18 seconds
+2021-05-27 13:11:39 INFO  HomePage:44 - ***********************  *******17 seconds
+2021-05-27 13:11:40 INFO  HomePage:44 - ***********************  *******16 seconds
+2021-05-27 13:11:41 INFO  HomePage:44 - ***********************  *******15 seconds
+2021-05-27 13:11:42 INFO  HomePage:44 - ***********************  *******14 seconds
+2021-05-27 13:11:43 INFO  HomePage:44 - ***********************  *******13 seconds
+2021-05-27 13:11:44 INFO  HomePage:44 - ***********************  *******12 seconds
+2021-05-27 13:11:45 INFO  HomePage:44 - ***********************  *******11 seconds
+2021-05-27 13:11:46 INFO  HomePage:44 - ***********************  *******10 seconds
+2021-05-27 13:11:47 INFO  HomePage:44 - ***********************  *******9 seconds
+2021-05-27 13:11:48 INFO  HomePage:44 - ***********************  *******8 seconds
+2021-05-27 13:11:49 INFO  HomePage:44 - ***********************  *******7 seconds
+2021-05-27 13:11:50 INFO  HomePage:44 - ***********************  *******6 seconds
+2021-05-27 13:11:51 INFO  HomePage:44 - ***********************  *******5 seconds
+2021-05-27 13:11:52 INFO  HomePage:44 - ***********************  *******4 seconds
+2021-05-27 13:11:53 INFO  HomePage:44 - ***********************  *******3 seconds
+2021-05-27 13:11:54 INFO  HomePage:44 - ***********************  *******2 seconds
+2021-05-27 13:11:57 DEBUG PoolThreadCache:229 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+2021-05-27 13:16:32 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : chromedriver.path PropertyValue : src/main/resources/chromedriver.exe
+2021-05-27 13:16:32 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2021-05-27 13:16:32 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2021-05-27 13:16:32 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2021-05-27 13:16:32 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38467116
+2021-05-27 13:16:32 DEBUG PlatformDependent:1028 - Platform: Windows
+2021-05-27 13:16:32 DEBUG PlatformDependent0:417 - -Dio.netty.noUnsafe: false
+2021-05-27 13:16:32 DEBUG PlatformDependent0:889 - Java version: 8
+2021-05-27 13:16:32 DEBUG PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
+2021-05-27 13:16:32 DEBUG PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
+2021-05-27 13:16:32 DEBUG PlatformDependent0:192 - java.nio.Buffer.address: available
+2021-05-27 13:16:32 DEBUG PlatformDependent0:257 - direct buffer constructor: available
+2021-05-27 13:16:32 DEBUG PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
+2021-05-27 13:16:32 DEBUG PlatformDependent0:396 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-05-27 13:16:32 DEBUG PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-05-27 13:16:32 DEBUG PlatformDependent:1071 - sun.misc.Unsafe: available
+2021-05-27 13:16:32 DEBUG PlatformDependent:1192 - -Dio.netty.tmpdir: C:\Users\jmunaga\AppData\Local\Temp (java.io.tmpdir)
+2021-05-27 13:16:32 DEBUG PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-05-27 13:16:32 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1871708160 bytes
+2021-05-27 13:16:32 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-05-27 13:16:32 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-05-27 13:16:32 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2021-05-27 13:16:32 DEBUG PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-05-27 13:16:32 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-05-27 13:16:32 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-05-27 13:16:33 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2021-05-27 13:16:33 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2021-05-27 13:16:33 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-05-27 13:16:33 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-05-27 13:16:33 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 16
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 16
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-05-27 13:16:33 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-05-27 13:16:33 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-05-27 13:16:33 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-05-27 13:16:33 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-05-27 13:16:34 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 11632 (auto-detected)
+2021-05-27 13:16:34 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2021-05-27 13:16:34 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2021-05-27 13:16:34 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-05-27 13:16:34 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-05-27 13:16:34 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d0:c6:37:ff:fe:c3:3e:fd (auto-detected)
+2021-05-27 13:16:34 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-05-27 13:16:34 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-05-27 13:16:34 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@52be22a9
+2021-05-27 13:16:34 DEBUG Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-05-27 13:16:34 DEBUG Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-05-27 13:16:34 DEBUG Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
+2021-05-27 13:16:34 DEBUG Recycler:103 - -Dio.netty.recycler.ratio: 8
+2021-05-27 13:16:34 DEBUG Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-05-27 13:16:36 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xd8e32ac05905f01c
+2021-05-27 13:16:36 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:16:47 INFO  HomePage:44 - ***************59
+2021-05-27 13:16:48 INFO  HomePage:46 - ***********************  *******58 seconds
+2021-05-27 13:16:48 INFO  HomePage:44 - ***************58
+2021-05-27 13:16:49 INFO  HomePage:46 - ***********************  *******57 seconds
+2021-05-27 13:16:49 INFO  HomePage:44 - ***************57
+2021-05-27 13:16:50 INFO  HomePage:46 - ***********************  *******56 seconds
+2021-05-27 13:16:50 INFO  HomePage:44 - ***************56
+2021-05-27 13:16:51 INFO  HomePage:46 - ***********************  *******55 seconds
+2021-05-27 13:16:51 INFO  HomePage:44 - ***************55
+2021-05-27 13:16:52 INFO  HomePage:46 - ***********************  *******54 seconds
+2021-05-27 13:16:52 INFO  HomePage:44 - ***************54
+2021-05-27 13:16:53 INFO  HomePage:46 - ***********************  *******53 seconds
+2021-05-27 13:16:53 INFO  HomePage:44 - ***************53
+2021-05-27 13:16:54 INFO  HomePage:46 - ***********************  *******52 seconds
+2021-05-27 13:16:54 INFO  HomePage:44 - ***************52
+2021-05-27 13:16:55 INFO  HomePage:46 - ***********************  *******51 seconds
+2021-05-27 13:16:55 INFO  HomePage:44 - ***************51
+2021-05-27 13:16:56 INFO  HomePage:46 - ***********************  *******50 seconds
+2021-05-27 13:16:56 INFO  HomePage:44 - ***************50
+2021-05-27 13:16:57 INFO  HomePage:46 - ***********************  *******49 seconds
+2021-05-27 13:16:57 INFO  HomePage:44 - ***************49
+2021-05-27 13:16:58 INFO  HomePage:46 - ***********************  *******48 seconds
+2021-05-27 13:16:58 INFO  HomePage:44 - ***************48
+2021-05-27 13:16:59 INFO  HomePage:46 - ***********************  *******47 seconds
+2021-05-27 13:16:59 INFO  HomePage:44 - ***************47
+2021-05-27 13:17:00 INFO  HomePage:46 - ***********************  *******46 seconds
+2021-05-27 13:17:00 INFO  HomePage:44 - ***************46
+2021-05-27 13:17:01 INFO  HomePage:46 - ***********************  *******45 seconds
+2021-05-27 13:17:01 INFO  HomePage:44 - ***************45
+2021-05-27 13:17:02 INFO  HomePage:46 - ***********************  *******44 seconds
+2021-05-27 13:17:02 INFO  HomePage:44 - ***************44
+2021-05-27 13:17:03 INFO  HomePage:46 - ***********************  *******43 seconds
+2021-05-27 13:17:03 INFO  HomePage:44 - ***************43
+2021-05-27 13:17:04 INFO  HomePage:46 - ***********************  *******42 seconds
+2021-05-27 13:17:04 INFO  HomePage:44 - ***************42
+2021-05-27 13:17:05 INFO  HomePage:46 - ***********************  *******41 seconds
+2021-05-27 13:17:05 INFO  HomePage:44 - ***************41
+2021-05-27 13:17:06 INFO  HomePage:46 - ***********************  *******40 seconds
+2021-05-27 13:17:06 INFO  HomePage:44 - ***************40
+2021-05-27 13:17:07 INFO  HomePage:46 - ***********************  *******39 seconds
+2021-05-27 13:17:07 INFO  HomePage:44 - ***************39
+2021-05-27 13:17:08 INFO  HomePage:46 - ***********************  *******38 seconds
+2021-05-27 13:17:08 INFO  HomePage:44 - ***************38
+2021-05-27 13:17:09 INFO  HomePage:46 - ***********************  *******37 seconds
+2021-05-27 13:17:09 INFO  HomePage:44 - ***************37
+2021-05-27 13:17:10 INFO  HomePage:46 - ***********************  *******36 seconds
+2021-05-27 13:17:10 INFO  HomePage:44 - ***************36
+2021-05-27 13:17:11 INFO  HomePage:46 - ***********************  *******35 seconds
+2021-05-27 13:17:11 INFO  HomePage:44 - ***************35
+2021-05-27 13:17:12 INFO  HomePage:46 - ***********************  *******34 seconds
+2021-05-27 13:17:12 INFO  HomePage:44 - ***************34
+2021-05-27 13:17:13 INFO  HomePage:46 - ***********************  *******33 seconds
+2021-05-27 13:17:13 INFO  HomePage:44 - ***************33
+2021-05-27 13:17:14 INFO  HomePage:46 - ***********************  *******32 seconds
+2021-05-27 13:17:14 INFO  HomePage:44 - ***************32
+2021-05-27 13:17:15 INFO  HomePage:46 - ***********************  *******31 seconds
+2021-05-27 13:17:15 INFO  HomePage:44 - ***************31
+2021-05-27 13:17:16 INFO  HomePage:46 - ***********************  *******30 seconds
+2021-05-27 13:17:16 INFO  HomePage:44 - ***************30
+2021-05-27 13:17:17 INFO  HomePage:46 - ***********************  *******29 seconds
+2021-05-27 13:17:17 INFO  HomePage:44 - ***************29
+2021-05-27 13:17:18 INFO  HomePage:46 - ***********************  *******28 seconds
+2021-05-27 13:17:18 INFO  HomePage:44 - ***************28
+2021-05-27 13:17:19 INFO  HomePage:46 - ***********************  *******27 seconds
+2021-05-27 13:17:19 INFO  HomePage:44 - ***************27
+2021-05-27 13:17:20 INFO  HomePage:46 - ***********************  *******26 seconds
+2021-05-27 13:17:20 INFO  HomePage:44 - ***************26
+2021-05-27 13:17:21 INFO  HomePage:46 - ***********************  *******25 seconds
+2021-05-27 13:17:21 INFO  HomePage:44 - ***************25
+2021-05-27 13:17:22 INFO  HomePage:46 - ***********************  *******24 seconds
+2021-05-27 13:17:22 INFO  HomePage:44 - ***************24
+2021-05-27 13:17:23 INFO  HomePage:46 - ***********************  *******23 seconds
+2021-05-27 13:17:23 INFO  HomePage:44 - ***************23
+2021-05-27 13:17:24 INFO  HomePage:46 - ***********************  *******22 seconds
+2021-05-27 13:17:24 INFO  HomePage:44 - ***************22
+2021-05-27 13:17:25 INFO  HomePage:46 - ***********************  *******21 seconds
+2021-05-27 13:17:25 INFO  HomePage:44 - ***************21
+2021-05-27 13:17:26 INFO  HomePage:46 - ***********************  *******20 seconds
+2021-05-27 13:17:26 INFO  HomePage:44 - ***************20
+2021-05-27 13:17:27 INFO  HomePage:46 - ***********************  *******19 seconds
+2021-05-27 13:17:27 INFO  HomePage:44 - ***************19
+2021-05-27 13:17:28 INFO  HomePage:46 - ***********************  *******18 seconds
+2021-05-27 13:17:28 INFO  HomePage:44 - ***************18
+2021-05-27 13:17:29 INFO  HomePage:46 - ***********************  *******17 seconds
+2021-05-27 13:17:29 INFO  HomePage:44 - ***************17
+2021-05-27 13:17:30 INFO  HomePage:46 - ***********************  *******16 seconds
+2021-05-27 13:17:30 INFO  HomePage:44 - ***************16
+2021-05-27 13:17:31 INFO  HomePage:46 - ***********************  *******15 seconds
+2021-05-27 13:17:31 INFO  HomePage:44 - ***************15
+2021-05-27 13:17:32 INFO  HomePage:46 - ***********************  *******14 seconds
+2021-05-27 13:17:32 INFO  HomePage:44 - ***************14
+2021-05-27 13:17:33 INFO  HomePage:46 - ***********************  *******13 seconds
+2021-05-27 13:17:33 INFO  HomePage:44 - ***************13
+2021-05-27 13:17:34 INFO  HomePage:46 - ***********************  *******12 seconds
+2021-05-27 13:17:34 INFO  HomePage:44 - ***************12
+2021-05-27 13:17:35 INFO  HomePage:46 - ***********************  *******11 seconds
+2021-05-27 13:17:35 INFO  HomePage:44 - ***************11
+2021-05-27 13:17:36 INFO  HomePage:46 - ***********************  *******10 seconds
+2021-05-27 13:17:36 INFO  HomePage:44 - ***************10
+2021-05-27 13:17:37 INFO  HomePage:46 - ***********************  *******9 seconds
+2021-05-27 13:17:37 INFO  HomePage:44 - ***************9
+2021-05-27 13:17:38 INFO  HomePage:46 - ***********************  *******8 seconds
+2021-05-27 13:17:38 INFO  HomePage:44 - ***************8
+2021-05-27 13:17:39 INFO  HomePage:46 - ***********************  *******7 seconds
+2021-05-27 13:17:39 INFO  HomePage:44 - ***************7
+2021-05-27 13:17:40 INFO  HomePage:46 - ***********************  *******6 seconds
+2021-05-27 13:17:40 INFO  HomePage:44 - ***************6
+2021-05-27 13:17:41 INFO  HomePage:46 - ***********************  *******5 seconds
+2021-05-27 13:17:41 INFO  HomePage:44 - ***************5
+2021-05-27 13:17:42 INFO  HomePage:46 - ***********************  *******4 seconds
+2021-05-27 13:17:42 INFO  HomePage:44 - ***************4
+2021-05-27 13:17:43 INFO  HomePage:46 - ***********************  *******3 seconds
+2021-05-27 13:17:43 INFO  HomePage:44 - ***************3
+2021-05-27 13:17:44 INFO  HomePage:46 - ***********************  *******2 seconds
+2021-05-27 13:17:44 INFO  HomePage:44 - ***************2
+2021-05-27 13:17:45 INFO  HomePage:46 - ***********************  *******1 second
+2021-05-27 13:17:45 DEBUG PoolThreadCache:229 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+2021-05-27 13:21:07 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : chromedriver.path PropertyValue : src/main/resources/chromedriver.exe
+2021-05-27 13:21:07 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2021-05-27 13:21:07 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2021-05-27 13:21:07 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2021-05-27 13:21:07 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38467116
+2021-05-27 13:21:07 DEBUG PlatformDependent:1028 - Platform: Windows
+2021-05-27 13:21:07 DEBUG PlatformDependent0:417 - -Dio.netty.noUnsafe: false
+2021-05-27 13:21:07 DEBUG PlatformDependent0:889 - Java version: 8
+2021-05-27 13:21:07 DEBUG PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
+2021-05-27 13:21:07 DEBUG PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
+2021-05-27 13:21:07 DEBUG PlatformDependent0:192 - java.nio.Buffer.address: available
+2021-05-27 13:21:07 DEBUG PlatformDependent0:257 - direct buffer constructor: available
+2021-05-27 13:21:07 DEBUG PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
+2021-05-27 13:21:07 DEBUG PlatformDependent0:396 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-05-27 13:21:07 DEBUG PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-05-27 13:21:07 DEBUG PlatformDependent:1071 - sun.misc.Unsafe: available
+2021-05-27 13:21:07 DEBUG PlatformDependent:1192 - -Dio.netty.tmpdir: C:\Users\jmunaga\AppData\Local\Temp (java.io.tmpdir)
+2021-05-27 13:21:07 DEBUG PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-05-27 13:21:07 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1871708160 bytes
+2021-05-27 13:21:07 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-05-27 13:21:07 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-05-27 13:21:07 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2021-05-27 13:21:07 DEBUG PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-05-27 13:21:07 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-05-27 13:21:07 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-05-27 13:21:08 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2021-05-27 13:21:08 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2021-05-27 13:21:08 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-05-27 13:21:08 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-05-27 13:21:08 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 16
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 16
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-05-27 13:21:08 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-05-27 13:21:08 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-05-27 13:21:08 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-05-27 13:21:08 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-05-27 13:21:09 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 22000 (auto-detected)
+2021-05-27 13:21:09 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2021-05-27 13:21:09 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2021-05-27 13:21:09 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-05-27 13:21:09 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-05-27 13:21:09 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d0:c6:37:ff:fe:c3:3e:fd (auto-detected)
+2021-05-27 13:21:10 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-05-27 13:21:10 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-05-27 13:21:10 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@799e1b0e
+2021-05-27 13:21:10 DEBUG Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-05-27 13:21:10 DEBUG Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-05-27 13:21:10 DEBUG Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
+2021-05-27 13:21:10 DEBUG Recycler:103 - -Dio.netty.recycler.ratio: 8
+2021-05-27 13:21:10 DEBUG Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-05-27 13:21:11 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x60f2d5904dcb4eb1
+2021-05-27 13:21:11 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:23:48 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : chromedriver.path PropertyValue : src/main/resources/chromedriver.exe
+2021-05-27 13:23:48 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2021-05-27 13:23:48 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2021-05-27 13:23:48 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2021-05-27 13:23:48 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38467116
+2021-05-27 13:23:48 DEBUG PlatformDependent:1028 - Platform: Windows
+2021-05-27 13:23:48 DEBUG PlatformDependent0:417 - -Dio.netty.noUnsafe: false
+2021-05-27 13:23:48 DEBUG PlatformDependent0:889 - Java version: 8
+2021-05-27 13:23:48 DEBUG PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
+2021-05-27 13:23:48 DEBUG PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
+2021-05-27 13:23:48 DEBUG PlatformDependent0:192 - java.nio.Buffer.address: available
+2021-05-27 13:23:48 DEBUG PlatformDependent0:257 - direct buffer constructor: available
+2021-05-27 13:23:48 DEBUG PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
+2021-05-27 13:23:48 DEBUG PlatformDependent0:396 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-05-27 13:23:48 DEBUG PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-05-27 13:23:48 DEBUG PlatformDependent:1071 - sun.misc.Unsafe: available
+2021-05-27 13:23:48 DEBUG PlatformDependent:1192 - -Dio.netty.tmpdir: C:\Users\jmunaga\AppData\Local\Temp (java.io.tmpdir)
+2021-05-27 13:23:48 DEBUG PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-05-27 13:23:48 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1871708160 bytes
+2021-05-27 13:23:48 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-05-27 13:23:48 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-05-27 13:23:48 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2021-05-27 13:23:48 DEBUG PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-05-27 13:23:48 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-05-27 13:23:48 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-05-27 13:23:48 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2021-05-27 13:23:48 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2021-05-27 13:23:49 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-05-27 13:23:49 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-05-27 13:23:49 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 16
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 16
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-05-27 13:23:49 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-05-27 13:23:49 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-05-27 13:23:49 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-05-27 13:23:49 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-05-27 13:23:49 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 23616 (auto-detected)
+2021-05-27 13:23:49 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2021-05-27 13:23:49 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2021-05-27 13:23:50 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-05-27 13:23:50 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-05-27 13:23:50 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d0:c6:37:ff:fe:c3:3e:fd (auto-detected)
+2021-05-27 13:23:50 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-05-27 13:23:50 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-05-27 13:23:50 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3eaa17c5
+2021-05-27 13:23:50 DEBUG Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-05-27 13:23:50 DEBUG Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-05-27 13:23:50 DEBUG Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
+2021-05-27 13:23:50 DEBUG Recycler:103 - -Dio.netty.recycler.ratio: 8
+2021-05-27 13:23:50 DEBUG Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-05-27 13:23:52 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x4aac3ecb0a4d3a74
+2021-05-27 13:23:52 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 13:23:58 INFO  HomePage:44 - ***************58
+2021-05-27 13:23:59 INFO  HomePage:46 - ***********************  *******58 seconds
+2021-05-27 13:23:59 INFO  HomePage:44 - ***************57
+2021-05-27 13:24:00 INFO  HomePage:46 - ***********************  *******57 seconds
+2021-05-27 13:24:00 INFO  HomePage:44 - ***************56
+2021-05-27 13:24:01 INFO  HomePage:46 - ***********************  *******56 seconds
+2021-05-27 13:24:01 INFO  HomePage:44 - ***************55
+2021-05-27 13:24:02 INFO  HomePage:46 - ***********************  *******55 seconds
+2021-05-27 13:24:02 INFO  HomePage:44 - ***************54
+2021-05-27 13:24:03 INFO  HomePage:46 - ***********************  *******54 seconds
+2021-05-27 13:24:03 INFO  HomePage:44 - ***************53
+2021-05-27 13:24:04 INFO  HomePage:46 - ***********************  *******53 seconds
+2021-05-27 13:24:04 INFO  HomePage:44 - ***************52
+2021-05-27 13:24:05 INFO  HomePage:46 - ***********************  *******52 seconds
+2021-05-27 13:24:05 INFO  HomePage:44 - ***************51
+2021-05-27 13:24:06 INFO  HomePage:46 - ***********************  *******51 seconds
+2021-05-27 13:24:06 INFO  HomePage:44 - ***************50
+2021-05-27 13:24:07 INFO  HomePage:46 - ***********************  *******50 seconds
+2021-05-27 13:24:07 INFO  HomePage:44 - ***************49
+2021-05-27 13:24:08 INFO  HomePage:46 - ***********************  *******49 seconds
+2021-05-27 13:24:08 INFO  HomePage:44 - ***************48
+2021-05-27 13:24:09 INFO  HomePage:46 - ***********************  *******48 seconds
+2021-05-27 13:24:09 INFO  HomePage:44 - ***************47
+2021-05-27 13:24:10 INFO  HomePage:46 - ***********************  *******47 seconds
+2021-05-27 13:24:10 INFO  HomePage:44 - ***************46
+2021-05-27 13:24:11 INFO  HomePage:46 - ***********************  *******46 seconds
+2021-05-27 13:24:11 INFO  HomePage:44 - ***************45
+2021-05-27 13:24:12 INFO  HomePage:46 - ***********************  *******45 seconds
+2021-05-27 13:24:12 INFO  HomePage:44 - ***************44
+2021-05-27 13:24:13 INFO  HomePage:46 - ***********************  *******44 seconds
+2021-05-27 13:24:13 INFO  HomePage:44 - ***************43
+2021-05-27 13:24:14 INFO  HomePage:46 - ***********************  *******43 seconds
+2021-05-27 13:24:14 INFO  HomePage:44 - ***************42
+2021-05-27 13:24:15 INFO  HomePage:46 - ***********************  *******42 seconds
+2021-05-27 13:24:15 INFO  HomePage:44 - ***************41
+2021-05-27 13:24:16 INFO  HomePage:46 - ***********************  *******41 seconds
+2021-05-27 13:24:16 INFO  HomePage:44 - ***************40
+2021-05-27 13:24:17 INFO  HomePage:46 - ***********************  *******40 seconds
+2021-05-27 13:24:17 INFO  HomePage:44 - ***************39
+2021-05-27 13:24:18 INFO  HomePage:46 - ***********************  *******39 seconds
+2021-05-27 13:24:18 INFO  HomePage:44 - ***************38
+2021-05-27 13:24:19 INFO  HomePage:46 - ***********************  *******38 seconds
+2021-05-27 13:24:19 INFO  HomePage:44 - ***************37
+2021-05-27 13:24:20 INFO  HomePage:46 - ***********************  *******37 seconds
+2021-05-27 13:24:20 INFO  HomePage:44 - ***************36
+2021-05-27 13:24:21 INFO  HomePage:46 - ***********************  *******36 seconds
+2021-05-27 13:24:21 INFO  HomePage:44 - ***************35
+2021-05-27 13:24:22 INFO  HomePage:46 - ***********************  *******35 seconds
+2021-05-27 13:24:22 INFO  HomePage:44 - ***************34
+2021-05-27 13:24:23 INFO  HomePage:46 - ***********************  *******34 seconds
+2021-05-27 13:24:23 INFO  HomePage:44 - ***************33
+2021-05-27 13:24:24 INFO  HomePage:46 - ***********************  *******33 seconds
+2021-05-27 13:24:24 INFO  HomePage:44 - ***************32
+2021-05-27 13:24:25 INFO  HomePage:46 - ***********************  *******32 seconds
+2021-05-27 13:24:25 INFO  HomePage:44 - ***************31
+2021-05-27 13:24:26 INFO  HomePage:46 - ***********************  *******31 seconds
+2021-05-27 13:24:26 INFO  HomePage:44 - ***************30
+2021-05-27 13:24:27 INFO  HomePage:46 - ***********************  *******30 seconds
+2021-05-27 13:24:27 INFO  HomePage:44 - ***************29
+2021-05-27 13:24:28 INFO  HomePage:46 - ***********************  *******29 seconds
+2021-05-27 13:24:28 INFO  HomePage:44 - ***************28
+2021-05-27 13:24:29 INFO  HomePage:46 - ***********************  *******28 seconds
+2021-05-27 13:24:29 INFO  HomePage:44 - ***************27
+2021-05-27 13:24:30 INFO  HomePage:46 - ***********************  *******27 seconds
+2021-05-27 13:24:30 INFO  HomePage:44 - ***************26
+2021-05-27 13:24:31 INFO  HomePage:46 - ***********************  *******26 seconds
+2021-05-27 13:24:31 INFO  HomePage:44 - ***************25
+2021-05-27 13:24:32 INFO  HomePage:46 - ***********************  *******25 seconds
+2021-05-27 13:24:32 INFO  HomePage:44 - ***************24
+2021-05-27 13:24:33 INFO  HomePage:46 - ***********************  *******24 seconds
+2021-05-27 13:24:33 INFO  HomePage:44 - ***************23
+2021-05-27 13:24:34 INFO  HomePage:46 - ***********************  *******23 seconds
+2021-05-27 13:24:34 INFO  HomePage:44 - ***************22
+2021-05-27 13:24:35 INFO  HomePage:46 - ***********************  *******22 seconds
+2021-05-27 13:24:35 INFO  HomePage:44 - ***************21
+2021-05-27 13:24:36 INFO  HomePage:46 - ***********************  *******21 seconds
+2021-05-27 13:24:36 INFO  HomePage:44 - ***************20
+2021-05-27 13:24:37 INFO  HomePage:46 - ***********************  *******20 seconds
+2021-05-27 13:24:37 INFO  HomePage:44 - ***************19
+2021-05-27 13:24:38 INFO  HomePage:46 - ***********************  *******19 seconds
+2021-05-27 13:24:38 INFO  HomePage:44 - ***************18
+2021-05-27 13:24:39 INFO  HomePage:46 - ***********************  *******18 seconds
+2021-05-27 13:24:39 INFO  HomePage:44 - ***************17
+2021-05-27 13:24:40 INFO  HomePage:46 - ***********************  *******17 seconds
+2021-05-27 13:24:40 INFO  HomePage:44 - ***************16
+2021-05-27 13:24:41 INFO  HomePage:46 - ***********************  *******16 seconds
+2021-05-27 13:24:41 INFO  HomePage:44 - ***************15
+2021-05-27 13:24:42 INFO  HomePage:46 - ***********************  *******15 seconds
+2021-05-27 13:24:42 INFO  HomePage:44 - ***************14
+2021-05-27 13:24:43 INFO  HomePage:46 - ***********************  *******14 seconds
+2021-05-27 13:24:43 INFO  HomePage:44 - ***************13
+2021-05-27 13:24:44 INFO  HomePage:46 - ***********************  *******13 seconds
+2021-05-27 13:24:44 INFO  HomePage:44 - ***************12
+2021-05-27 13:24:45 INFO  HomePage:46 - ***********************  *******12 seconds
+2021-05-27 13:24:45 INFO  HomePage:44 - ***************11
+2021-05-27 13:24:46 INFO  HomePage:46 - ***********************  *******11 seconds
+2021-05-27 13:24:46 INFO  HomePage:44 - ***************10
+2021-05-27 13:24:47 INFO  HomePage:46 - ***********************  *******10 seconds
+2021-05-27 13:24:47 INFO  HomePage:44 - ***************9
+2021-05-27 13:24:48 INFO  HomePage:46 - ***********************  *******9 seconds
+2021-05-27 13:24:48 INFO  HomePage:44 - ***************8
+2021-05-27 13:24:49 INFO  HomePage:46 - ***********************  *******8 seconds
+2021-05-27 13:24:49 INFO  HomePage:44 - ***************7
+2021-05-27 13:24:50 INFO  HomePage:46 - ***********************  *******7 seconds
+2021-05-27 13:24:50 INFO  HomePage:44 - ***************6
+2021-05-27 13:24:51 INFO  HomePage:46 - ***********************  *******6 seconds
+2021-05-27 13:24:51 INFO  HomePage:44 - ***************5
+2021-05-27 13:24:52 INFO  HomePage:46 - ***********************  *******5 seconds
+2021-05-27 13:24:52 INFO  HomePage:44 - ***************4
+2021-05-27 13:24:53 INFO  HomePage:46 - ***********************  *******4 seconds
+2021-05-27 13:24:53 INFO  HomePage:44 - ***************3
+2021-05-27 13:24:54 INFO  HomePage:46 - ***********************  *******3 seconds
+2021-05-27 13:24:54 INFO  HomePage:44 - ***************2
+2021-05-27 13:24:55 INFO  HomePage:46 - ***********************  *******2 seconds
+2021-05-27 13:24:55 INFO  HomePage:44 - ***************1
+2021-05-27 13:24:56 INFO  HomePage:46 - ***********************  *******1 second
+2021-05-27 13:24:56 INFO  HomePage:44 - ***************0
+2021-05-27 13:24:57 INFO  HomePage:46 - ***********************  *******0 second
+2021-05-27 13:24:57 DEBUG PoolThreadCache:229 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+2021-05-27 14:19:59 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : chromedriver.path PropertyValue : src/main/resources/chromedriver.exe
+2021-05-27 14:20:00 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+2021-05-27 14:20:00 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+2021-05-27 14:20:00 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+2021-05-27 14:20:00 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38467116
+2021-05-27 14:20:00 DEBUG PlatformDependent:1028 - Platform: Windows
+2021-05-27 14:20:00 DEBUG PlatformDependent0:417 - -Dio.netty.noUnsafe: false
+2021-05-27 14:20:00 DEBUG PlatformDependent0:889 - Java version: 8
+2021-05-27 14:20:00 DEBUG PlatformDependent0:130 - sun.misc.Unsafe.theUnsafe: available
+2021-05-27 14:20:00 DEBUG PlatformDependent0:154 - sun.misc.Unsafe.copyMemory: available
+2021-05-27 14:20:00 DEBUG PlatformDependent0:192 - java.nio.Buffer.address: available
+2021-05-27 14:20:00 DEBUG PlatformDependent0:257 - direct buffer constructor: available
+2021-05-27 14:20:00 DEBUG PlatformDependent0:331 - java.nio.Bits.unaligned: available, true
+2021-05-27 14:20:00 DEBUG PlatformDependent0:396 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-05-27 14:20:00 DEBUG PlatformDependent0:403 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-05-27 14:20:00 DEBUG PlatformDependent:1071 - sun.misc.Unsafe: available
+2021-05-27 14:20:00 DEBUG PlatformDependent:1192 - -Dio.netty.tmpdir: C:\Users\jmunaga\AppData\Local\Temp (java.io.tmpdir)
+2021-05-27 14:20:00 DEBUG PlatformDependent:1271 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-05-27 14:20:00 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1871708160 bytes
+2021-05-27 14:20:00 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-05-27 14:20:00 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-05-27 14:20:00 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+2021-05-27 14:20:00 DEBUG PlatformDependent:932 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-05-27 14:20:00 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-05-27 14:20:00 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-05-27 14:20:00 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2021-05-27 14:20:00 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2021-05-27 14:20:00 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-05-27 14:20:00 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-05-27 14:20:00 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.numHeapArenas: 16
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numDirectArenas: 16
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.pageSize: 8192
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxOrder: 11
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:166 - -Dio.netty.allocator.chunkSize: 16777216
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.smallCacheSize: 256
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.normalCacheSize: 64
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-05-27 14:20:00 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-05-27 14:20:00 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-05-27 14:20:00 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-05-27 14:20:00 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-05-27 14:20:01 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 24744 (auto-detected)
+2021-05-27 14:20:01 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+2021-05-27 14:20:01 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+2021-05-27 14:20:02 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-05-27 14:20:02 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-05-27 14:20:02 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d0:c6:37:ff:fe:c3:3e:fd (auto-detected)
+2021-05-27 14:20:02 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-05-27 14:20:02 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-05-27 14:20:02 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@245d77ff
+2021-05-27 14:20:02 DEBUG Recycler:100 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-05-27 14:20:02 DEBUG Recycler:101 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-05-27 14:20:02 DEBUG Recycler:102 - -Dio.netty.recycler.linkCapacity: 16
+2021-05-27 14:20:02 DEBUG Recycler:103 - -Dio.netty.recycler.ratio: 8
+2021-05-27 14:20:02 DEBUG Recycler:104 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-05-27 14:20:03 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xdde3cd1647dcb362
+2021-05-27 14:20:04 DEBUG ProjectPropertyUtil:26 - [TEST] PropertyName : eggtimer.page.url PropertyValue : https://e.ggtimer.com/
+2021-05-27 14:20:11 INFO  HomePage:45 - counter increment value is 59
+2021-05-27 14:20:12 INFO  HomePage:47 - count down in seconds 58 seconds
+2021-05-27 14:20:12 INFO  HomePage:45 - counter increment value is 58
+2021-05-27 14:20:13 INFO  HomePage:47 - count down in seconds 57 seconds
+2021-05-27 14:20:13 INFO  HomePage:45 - counter increment value is 57
+2021-05-27 14:20:14 INFO  HomePage:47 - count down in seconds 56 seconds
+2021-05-27 14:20:14 INFO  HomePage:45 - counter increment value is 56
+2021-05-27 14:20:15 INFO  HomePage:47 - count down in seconds 55 seconds
+2021-05-27 14:20:15 INFO  HomePage:45 - counter increment value is 55
+2021-05-27 14:20:16 INFO  HomePage:47 - count down in seconds 54 seconds
+2021-05-27 14:20:16 INFO  HomePage:45 - counter increment value is 54
+2021-05-27 14:20:17 INFO  HomePage:47 - count down in seconds 53 seconds
+2021-05-27 14:20:17 INFO  HomePage:45 - counter increment value is 53
+2021-05-27 14:20:18 INFO  HomePage:47 - count down in seconds 52 seconds
+2021-05-27 14:20:18 INFO  HomePage:45 - counter increment value is 52
+2021-05-27 14:20:19 INFO  HomePage:47 - count down in seconds 51 seconds
+2021-05-27 14:20:19 INFO  HomePage:45 - counter increment value is 51
+2021-05-27 14:20:20 INFO  HomePage:47 - count down in seconds 50 seconds
+2021-05-27 14:20:20 INFO  HomePage:45 - counter increment value is 50
+2021-05-27 14:20:21 INFO  HomePage:47 - count down in seconds 49 seconds
+2021-05-27 14:20:21 INFO  HomePage:45 - counter increment value is 49
+2021-05-27 14:20:22 INFO  HomePage:47 - count down in seconds 48 seconds
+2021-05-27 14:20:22 INFO  HomePage:45 - counter increment value is 48
+2021-05-27 14:20:23 INFO  HomePage:47 - count down in seconds 47 seconds
+2021-05-27 14:20:23 INFO  HomePage:45 - counter increment value is 47
+2021-05-27 14:20:24 INFO  HomePage:47 - count down in seconds 46 seconds
+2021-05-27 14:20:24 INFO  HomePage:45 - counter increment value is 46
+2021-05-27 14:20:25 INFO  HomePage:47 - count down in seconds 45 seconds
+2021-05-27 14:20:25 INFO  HomePage:45 - counter increment value is 45
+2021-05-27 14:20:26 INFO  HomePage:47 - count down in seconds 44 seconds
+2021-05-27 14:20:26 INFO  HomePage:45 - counter increment value is 44
+2021-05-27 14:20:27 INFO  HomePage:47 - count down in seconds 43 seconds
+2021-05-27 14:20:27 INFO  HomePage:45 - counter increment value is 43
+2021-05-27 14:20:28 INFO  HomePage:47 - count down in seconds 42 seconds
+2021-05-27 14:20:28 INFO  HomePage:45 - counter increment value is 42
+2021-05-27 14:20:29 INFO  HomePage:47 - count down in seconds 41 seconds
+2021-05-27 14:20:29 INFO  HomePage:45 - counter increment value is 41
+2021-05-27 14:20:30 INFO  HomePage:47 - count down in seconds 40 seconds
+2021-05-27 14:20:30 INFO  HomePage:45 - counter increment value is 40
+2021-05-27 14:20:31 INFO  HomePage:47 - count down in seconds 39 seconds
+2021-05-27 14:20:31 INFO  HomePage:45 - counter increment value is 39
+2021-05-27 14:20:32 INFO  HomePage:47 - count down in seconds 38 seconds
+2021-05-27 14:20:32 INFO  HomePage:45 - counter increment value is 38
+2021-05-27 14:20:33 INFO  HomePage:47 - count down in seconds 37 seconds
+2021-05-27 14:20:33 INFO  HomePage:45 - counter increment value is 37
+2021-05-27 14:20:34 INFO  HomePage:47 - count down in seconds 36 seconds
+2021-05-27 14:20:34 INFO  HomePage:45 - counter increment value is 36
+2021-05-27 14:20:35 INFO  HomePage:47 - count down in seconds 35 seconds
+2021-05-27 14:20:35 INFO  HomePage:45 - counter increment value is 35
+2021-05-27 14:20:36 INFO  HomePage:47 - count down in seconds 34 seconds
+2021-05-27 14:20:36 INFO  HomePage:45 - counter increment value is 34
+2021-05-27 14:20:37 INFO  HomePage:47 - count down in seconds 33 seconds
+2021-05-27 14:20:37 INFO  HomePage:45 - counter increment value is 33
+2021-05-27 14:20:38 INFO  HomePage:47 - count down in seconds 32 seconds
+2021-05-27 14:20:38 INFO  HomePage:45 - counter increment value is 32
+2021-05-27 14:20:39 INFO  HomePage:47 - count down in seconds 31 seconds
+2021-05-27 14:20:39 INFO  HomePage:45 - counter increment value is 31
+2021-05-27 14:20:40 INFO  HomePage:47 - count down in seconds 30 seconds
+2021-05-27 14:20:40 INFO  HomePage:45 - counter increment value is 30
+2021-05-27 14:20:41 INFO  HomePage:47 - count down in seconds 29 seconds
+2021-05-27 14:20:41 INFO  HomePage:45 - counter increment value is 29
+2021-05-27 14:20:42 INFO  HomePage:47 - count down in seconds 28 seconds
+2021-05-27 14:20:42 INFO  HomePage:45 - counter increment value is 28
+2021-05-27 14:20:43 INFO  HomePage:47 - count down in seconds 27 seconds
+2021-05-27 14:20:43 INFO  HomePage:45 - counter increment value is 27
+2021-05-27 14:20:44 INFO  HomePage:47 - count down in seconds 26 seconds
+2021-05-27 14:20:44 INFO  HomePage:45 - counter increment value is 26
+2021-05-27 14:20:45 INFO  HomePage:47 - count down in seconds 25 seconds
+2021-05-27 14:20:45 INFO  HomePage:45 - counter increment value is 25
+2021-05-27 14:20:46 INFO  HomePage:47 - count down in seconds 24 seconds
+2021-05-27 14:20:46 INFO  HomePage:45 - counter increment value is 24
+2021-05-27 14:20:47 INFO  HomePage:47 - count down in seconds 23 seconds
+2021-05-27 14:20:47 INFO  HomePage:45 - counter increment value is 23
+2021-05-27 14:20:48 INFO  HomePage:47 - count down in seconds 22 seconds
+2021-05-27 14:20:48 INFO  HomePage:45 - counter increment value is 22
+2021-05-27 14:20:49 INFO  HomePage:47 - count down in seconds 21 seconds
+2021-05-27 14:20:49 INFO  HomePage:45 - counter increment value is 21
+2021-05-27 14:20:50 INFO  HomePage:47 - count down in seconds 20 seconds
+2021-05-27 14:20:50 INFO  HomePage:45 - counter increment value is 20
+2021-05-27 14:20:51 INFO  HomePage:47 - count down in seconds 19 seconds
+2021-05-27 14:20:51 INFO  HomePage:45 - counter increment value is 19
+2021-05-27 14:20:52 INFO  HomePage:47 - count down in seconds 18 seconds
+2021-05-27 14:20:52 INFO  HomePage:45 - counter increment value is 18
+2021-05-27 14:20:53 INFO  HomePage:47 - count down in seconds 17 seconds
+2021-05-27 14:20:53 INFO  HomePage:45 - counter increment value is 17
+2021-05-27 14:20:54 INFO  HomePage:47 - count down in seconds 16 seconds
+2021-05-27 14:20:54 INFO  HomePage:45 - counter increment value is 16
+2021-05-27 14:20:55 INFO  HomePage:47 - count down in seconds 15 seconds
+2021-05-27 14:20:55 INFO  HomePage:45 - counter increment value is 15
+2021-05-27 14:20:56 INFO  HomePage:47 - count down in seconds 14 seconds
+2021-05-27 14:20:56 INFO  HomePage:45 - counter increment value is 14
+2021-05-27 14:20:57 INFO  HomePage:47 - count down in seconds 13 seconds
+2021-05-27 14:20:57 INFO  HomePage:45 - counter increment value is 13
+2021-05-27 14:20:58 INFO  HomePage:47 - count down in seconds 12 seconds
+2021-05-27 14:20:58 INFO  HomePage:45 - counter increment value is 12
+2021-05-27 14:20:59 INFO  HomePage:47 - count down in seconds 11 seconds
+2021-05-27 14:20:59 INFO  HomePage:45 - counter increment value is 11
+2021-05-27 14:21:00 INFO  HomePage:47 - count down in seconds 10 seconds
+2021-05-27 14:21:00 INFO  HomePage:45 - counter increment value is 10
+2021-05-27 14:21:01 INFO  HomePage:47 - count down in seconds 9 seconds
+2021-05-27 14:21:01 INFO  HomePage:45 - counter increment value is 9
+2021-05-27 14:21:02 INFO  HomePage:47 - count down in seconds 8 seconds
+2021-05-27 14:21:02 INFO  HomePage:45 - counter increment value is 8
+2021-05-27 14:21:03 INFO  HomePage:47 - count down in seconds 7 seconds
+2021-05-27 14:21:03 INFO  HomePage:45 - counter increment value is 7
+2021-05-27 14:21:04 INFO  HomePage:47 - count down in seconds 6 seconds
+2021-05-27 14:21:04 INFO  HomePage:45 - counter increment value is 6
+2021-05-27 14:21:05 INFO  HomePage:47 - count down in seconds 5 seconds
+2021-05-27 14:21:05 INFO  HomePage:45 - counter increment value is 5
+2021-05-27 14:21:06 INFO  HomePage:47 - count down in seconds 4 seconds
+2021-05-27 14:21:06 INFO  HomePage:45 - counter increment value is 4
+2021-05-27 14:21:07 INFO  HomePage:47 - count down in seconds 3 seconds
+2021-05-27 14:21:07 INFO  HomePage:45 - counter increment value is 3
+2021-05-27 14:21:08 INFO  HomePage:47 - count down in seconds 2 seconds
+2021-05-27 14:21:08 INFO  HomePage:45 - counter increment value is 2
+2021-05-27 14:21:09 INFO  HomePage:47 - count down in seconds 1 second
+2021-05-27 14:21:09 INFO  HomePage:45 - counter increment value is 1
+2021-05-27 14:21:10 INFO  HomePage:47 - count down in seconds 0 second
+2021-05-27 14:21:10 INFO  HomePage:45 - counter increment value is 0
+2021-05-27 14:21:11 DEBUG PoolThreadCache:229 - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

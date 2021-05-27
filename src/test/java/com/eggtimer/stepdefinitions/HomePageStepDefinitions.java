@@ -30,6 +30,7 @@ public class HomePageStepDefinitions {
 
     @And("Set counter to {string} {string}")
     public void setCounterTo(String counterValue, String timeUnit) {
+        driverBase.counter=Integer.parseInt(counterValue);
         homePage.setCounterValue(counterValue);
         homePage.clickOnStartButton();
     }

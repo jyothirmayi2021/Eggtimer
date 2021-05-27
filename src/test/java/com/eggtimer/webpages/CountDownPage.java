@@ -17,14 +17,7 @@ public class CountDownPage {
     }
 
     @FindBy(xpath = "//p[@class='ClassicTimer-time']//child::span[1]")
-    WebElement minuteCount;
-
-    @FindBy(xpath = "//p[@class='ClassicTimer-time']//child::span[2]")
     WebElement secondsCount;
-
-    public String getMinuteCount() {
-        return minuteCount.getText();
-    }
 
     public String getSecondsCount() {
         return secondsCount.getText();
@@ -33,7 +26,5 @@ public class CountDownPage {
     public WebElement getSecondsCountWebElement() {
         return secondsCount;
     }
-    public WebElement getMinuteCountWebElement(){
-        return minuteCount;
-    }
+
 }

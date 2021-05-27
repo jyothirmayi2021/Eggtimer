@@ -10,6 +10,7 @@ public class DriverBase {
     public WebDriver webDriver;
     public WebDriverWait webDriverWait;
     private static boolean initialized = false;
+    public int counter;
 
     @Before
     public void setUp() {

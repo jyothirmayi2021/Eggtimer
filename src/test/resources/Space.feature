@@ -26,3 +26,20 @@ Feature: Validate space X API
     And Verify REST response for below values
       | core_serial     | B1049                    |
       | original_launch | 2018-09-10T04:45:00.000Z |
+
+#    Scenarios to test Space X API:
+#  1. Get list of all launches
+#  2. Get details of specific launch
+#  3. Get history of all launches
+#  4. Get all upcoming or scheduled launches
+#  5. Get latest Launch
+#  6. Get Next scheduled launch
+#  7. Get Roadster details
+#  8. Get all rocket details
+#  9. Get the list of all dragons
+#  10. Get the list of specific dragon
+#  11. Get all cores
+#  12. Get the details of specific core
+#  13. Verify error codes for bad request, invalid authentication, invalid parameters
+#
+#

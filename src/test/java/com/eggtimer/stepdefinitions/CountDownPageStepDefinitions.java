@@ -4,7 +4,6 @@ import java.time.Duration;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,36 +25,26 @@ public class CountDownPageStepDefinitions {
     }
 
     private String getNextSecondsValue(String seconds) {
+//        if (seconds.equals("2 seconds"))
+//            return "1 second";
         seconds = seconds.replaceAll("[^\\d]", "");
         seconds = seconds.trim();
         int secondsNumber = Integer.parseInt(seconds);
         secondsNumber = secondsNumber - 1;
-        seconds = secondsNumber + " seconds";
-        if(seconds.equals("1 seconds"))
-            return "59 seconds";
+        if (secondsNumber == 1 || secondsNumber == 0) return secondsNumber + " second";
+        else seconds = secondsNumber + " seconds";
         return seconds;
     }
 
     @And("Get count down values")
-    public void getCountDownValues() throws InterruptedException {
+    public void getCountDownValues() {
         driverBase.webDriverWait = new WebDriverWait(driverBase.webDriver, Duration.ofSeconds(5));
         driverBase.webDriverWait.until(ExpectedConditions.visibilityOf(countDownPage.getSecondsCountWebElement()));
-//        String previousSecondsValue = countDownPage.getSecondsCount();
-//        String previousMinuteValue = countDownPage.getMinuteCount();
-//        logger.info("***********************  " + countDownPage.getMinuteCount() + "*******" + countDownPage.getSecondsCount());
-        int counter = 1;
-        while (counter <= 100) {
-            if(countDownPage.getMinuteCount().equals("1 minute") && countDownPage.getSecondsCount().equals("2 seconds")){
-                counter=counter+2;
-                driverBase.webDriverWait.until(ExpectedConditions.textToBePresentInElement(countDownPage.getMinuteCountWebElement(),getNextSecondsValue(countDownPage.getMinuteCount())));
-                    }
-            else {
-                driverBase.webDriverWait.until(ExpectedConditions.textToBePresentInElement(countDownPage.getSecondsCountWebElement(), getNextSecondsValue(countDownPage.getSecondsCount())));
-                logger.info("***********************  " + countDownPage.getMinuteCount() + "*******" + countDownPage.getSecondsCount());
-            }
-            counter++;
-            System.out.println("*************"+counter);
+        int counter=driverBase.counter;
+        for (; counter != 0; counter--) {
+            logger.info("counter increment value is " + counter);
+            driverBase.webDriverWait.until(ExpectedConditions.textToBePresentInElement(countDownPage.getSecondsCountWebElement(), getNextSecondsValue(countDownPage.getSecondsCount())));
+            logger.info("count down in seconds " + countDownPage.getSecondsCount());
         }
-
     }
 }
